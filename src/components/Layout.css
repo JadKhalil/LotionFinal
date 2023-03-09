@@ -1,0 +1,256 @@
+.topnav {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    border-top: 3.5px solid darkblue;
+    max-width: 2200px;
+    height: 65px;
+}
+#subTitle {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: darkgray;
+    text-decoration: none;
+    font-size: 12px;  
+}
+
+.topnav-centered #Title {
+    float: none;
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -100%);
+}
+
+.topnav-centered  #subTitle {
+    float: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav .bars {
+    margin-top: 0;
+    float: left;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 0;
+    height: 200px;    
+}
+
+.hidden {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.Parent {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.child1 {
+    flex-grow: 1;
+    width: 15%;
+    text-align: center;
+   
+}
+
+.child2 {
+    width: 85%;
+    border-left: solid 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.Notesnav {
+    position: relative;
+    background-color: white;
+   
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+
+.Notesnav-left {
+    float: left;
+    position: absolute;
+    top: -40%;
+    padding: 2%;
+}
+
+#notes {
+    font-family: sans-serif;
+}
+
+
+.Notesnav-right {
+    float: right;
+    top: -10%;
+    padding: 2%;
+}
+
+.plus {
+    color: purple;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.note-body-container {
+    font-size: 18px;
+    color: darkgray;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.newNote {
+    border-bottom: 1px solid darkgray;
+     
+}
+
+.newNoteFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.newNote .noteTitle {
+    color: black;
+    float: left;
+    transform: translateY(-50%);
+    font-family: sans-serif;
+    
+}
+
+.newNote .timeEdit {
+    float: left;
+    transform: translateY(-100%);
+    
+}
+
+.newNote .Body {
+    
+    float: left;
+    color: black;
+    transform: translateY(-100%);
+}
+
+.active {
+    color: white ;
+    background-color: darkslateblue;
+}
+
+.active .noteTitle {
+    color: white;
+}
+
+.active .Body {
+    color: white;
+}
+
+/*---------------------------------------------------- Note container ------------------------------------------------------*/
+
+.Input-area {
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+
+
+.Note-Title {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+}
+
+
+.title {
+    padding-left: 10px; 
+    height: 80%;
+}
+
+.date-Time {
+    height: 20%;
+    font-size: 14px;
+    color: darkgray;
+    margin: 0;
+    border: none;
+}
+
+.edit {
+    padding: 10px;
+}
+
+.delete {
+    padding: 10px;
+}
+
+.noteStyle {
+    margin-left: 10px;
+}
+
+.Buttons {
+    background-color: white;   
+    border: none;
+    height: 100%; 
+    font-size: large; 
+}
+
+
+
+.Buttons:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/*---------------------------------------------------- Note container ------------------------------------------------------*/
+
+
+#no-note-display {
+    color: darkgray;
+    text-align: center;
+    transform: translate(-10%, 1400%);
+}
+
+.Title-SaveButton {
+    display: flex;
+    height: 8vh;
+}
+
+.textIn {
+    border: none;
+    font-size: 26px;
+    width: 800px;
+    height: 30%;
+
+    
+}
+
+.textIn:focus {
+    outline: none;
+}
+
+
+
