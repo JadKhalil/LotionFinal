@@ -18,11 +18,7 @@
   
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
-    "build": "CI=react-scripts build",
-=======
-    "build": "CI=Creact-scripts build",
->>>>>>> refs/remotes/origin/main
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
